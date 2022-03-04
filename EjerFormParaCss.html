@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es-ES" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario de Registro</title>
+  </head>
+  <body>
+    <h1>Formulario de Registro</h1>
+    <form class="" action="" method="post">
+      <fieldset class="datos">
+        <legend>Identificación</legend>
+        <label>Nombre:
+          <input type="text" name="nombre" value="" placeholder="Tu nombre..."
+                 maxlength="30">
+        </label><br>
+        <label>Apellidos:
+          <input type="text" name="apes" value="" placeholder="Tus apellidos..."
+                 maxlength="60">
+        </label><br>
+        Género:
+        <label><input type="radio" name="genero" value="h"> Hombre</label>
+        <label><input type="radio" name="genero" value="m"> Mujer</label>
+        <label><input type="radio" name="genero" value="o"> Otro</label><br>
+        <label>
+          Provincia:
+          <select class="" name="">
+            <option value="n">Seleccione una provincia</option>
+            <option value="Alicante">Alicante</option>
+            <option value="Bilbao">Bilbao</option>
+            <option value="Madrid">Madrid</option>
+            <option value="Zaragoza">Zaragoza</option>
+          </select>
+        </label><br>
+        <label>eCorreo:
+          <input type="email" name="eCor" value="" placeholder="Un eCorreo...">
+        </label>
+      </fieldset>
+      <fieldset class="acceso">
+        <legend>Información de Acceso al sitio</legend>
+        <label>Usuario:<br>
+          <input type="text" name="usu" value="" autocomplete="off"
+                 placeholder="Un nickname...">
+        </label><br>
+        <label>Contraseña:<br>
+          <input type="password" name="pwd" value="" placeholder="Una contraseña"
+                 title="Al menos 6 caracteres con al menos una Mayúscula, una mínúscula y un número"
+                 autocomplete="off" minlength="6" maxlength="15"
+                 pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9]).{6,15}">
+        </label>
+      </fieldset>
+      <label>¿Qué buscas?<br>
+        <textarea name="interes" rows="6" cols="80" placeholder="¿Qué esperas de nuestro sitio?"></textarea>
+      </label><br>
+      <label>
+        <input type="checkbox" name="novOf" value="si">
+        Deseo recibir información sobre novedades y ofertas
+      </label><br>
+      <label>
+        <input type="checkbox" name="cond" value="si">
+        Declaro haber leído y aceptar las condiciones generales del sitio y la normativa de protección de datos
+      </label><br>
+      <input type="submit" name="ok" value="Enviar">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tienda>
+
+<Coche marca="Opel" matricula="lo6568k">
+    <Modelo>Corsa</Modelo>
+    <Motor>V8</Motor>
+    <Kilómetros>1200</Kilómetros>
+    <Precio_Original>200€</Precio_Original>
+    <Precio_oferta>150€</Precio_oferta>
+    <Extras>Eleva-lunas</Extras>
+</Coche>
+
+<Coche marca="Ferrary" matricula="lo6598k">
+    <Modelo>impresa</Modelo>
+    <Motor>V8</Motor>
+    <Kilómetros>1200</Kilómetros>
+    <Precio_Original>1500€</Precio_Original>
+    <Precio_oferta>1000€</Precio_oferta>
+    <Extras>Faros laser</Extras>
+</Coche>
+
+<Coche marca="Peugeot" matricula="lo6598k">
+    <Modelo>Vegano</Modelo>
+    <Motor>V8</Motor>
+    <Kilómetros>1200</Kilómetros>
+    <Precio_Original>200€</Precio_Original>
+    <Precio_oferta>150€</Precio_oferta>
+    <Extras>Aleron</Extras>
+</Coche>
+</Tienda>

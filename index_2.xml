@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web>
+    <Libreria nombre="Porcelanosa"> 
+        <libro>
+            <ISBN>9783105202111</ISBN>
+            <Titulo>SPEAK BASKETBALL</Titulo>
+            <Nivel>bajo</Nivel>
+            <Autor>RICKY RUBIO,ALBERTO DE MIGUEL</Autor>
+            <Editorial>FISCHER VERLAG</Editorial>
+            <Fecha_publicacion>03/06/2021</Fecha_publicacion>
+            <ref>https://www.casadellibro.com/libro-speak-basketball-ejemplar-firmado/9783105202111/12375503</ref>
+            <precio>16,10€</precio>
+        </libro>
+    
+        <libro>
+            <ISBN>9788490669983</ISBN>
+            <Titulo>LOS VENCEJOS</Titulo>
+            <Nivel></Nivel>
+            <Autor>FERNANDO ARAMBURU</Autor>
+            <Editorial>TUSQUETS EDITORES</Editorial>
+            <Fecha_publicacion>25/08/2021</Fecha_publicacion>
+            <ref>https://www.casadellibro.com/libro-los-vencejos/9788490669983/12350783</ref>
+            <precio>21,75€</precio>
+        </libro>
+    
+        <libro>
+            <ISBN>9788466670227</ISBN>
+            <Titulo>TRILOGÍA REINA ROJA</Titulo>
+            <Nivel></Nivel>
+            <Autor>JUAN GOMEZ-JURADO</Autor>
+            <Editorial>S.A. EDICIONES B</Editorial>
+            <Fecha_publicacion>25/11/2021</Fecha_publicacion>
+            <ref>https://www.casadellibro.com/libro-trilogia-reina-roja-edicion-pack-con-reina-roja-loba-negra-rey-blanco/9788466670227/12480843</ref>
+            <precio>56,90€</precio>
+        </libro>
+       
+    </Libreria>
+    
+    <Libreria nombre="Santos ochoa"> 
+        <libro>
+            <ISBN>8432715138204</ISBN>
+            <Titulo>TU Y YO, INVENCIBLES</Titulo>
+            <Nivel></Nivel>
+            <Autor>ALICE KELLEN</Autor>
+            <Editorial>PLANETA</Editorial>
+            <Fecha_publicacion>26/11/2021</Fecha_publicacion>
+            <ref>https://www.casadellibro.com/libro-tu-y-yo-invencibles-ejemplar-firmado-por-la-autora/8432715138204/12615556</ref>
+            <precio>17,00€</precio>
+        </libro>
+    
+        <libro>
+            <ISBN>2910024204743</ISBN>
+            <Titulo>MAKE IT HAPPEN </Titulo>
+            <Nivel></Nivel>
+            <Autor>MONICA MORAN</Autor>
+            <Editorial>PLANETA</Editorial>
+            <Fecha_publicacion>29/10/2020</Fecha_publicacion>
+            <ref>https://www.casadellibro.com/libro-make-it-happen-ejemplar-firmado-por-la-autora/2910023647954/11773782</ref>
+            <precio>12,30€</precio>
+        </libro>
+    
+        <libro>
+            <ISBN>9788498890372</ISBN>
+            <Titulo>EL ULTIMO DESEO</Titulo>
+            <Nivel></Nivel>
+            <Autor>ANDRZEJ SAPKOWSKI</Autor>
+            <Editorial>ALAMUT EDICIONES</Editorial>
+            <Fecha_publicacion>17/11/2009</Fecha_publicacion>
+            <ref></ref>
+            <precio>22,75€</precio>
+        </libro>
+       
+    </Libreria>
+</web>

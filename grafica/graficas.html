@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='grafica.css'>
+    <script src='grafica.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+   
+    <fieldset>
+        <legend>Formulario TITULO</legend>
+         <canvas id="myChart"></canvas>
+         <form>
+            <label for="entrada">par:</label>
+            <input id="in" name="entrada" type="text">
+            <p>
+                <input type="submit" value="llama" >
+            </p>
+        
+        </form>
+    </fieldset>
+    <div onclick="pintar()">Pintar</div>
+    <div onclick="request()">Request</div>
+    
+</body>
+</html>
