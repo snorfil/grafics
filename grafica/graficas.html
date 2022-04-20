@@ -7,23 +7,33 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='grafica.css'>
     <script src='grafica.js'></script>
+    <script src='request.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
+
 <body>
-   
-    <fieldset>
-        <legend>Formulario TITULO</legend>
-         <canvas id="myChart"></canvas>
-         <form>
-            <label for="entrada">par:</label>
-            <input id="in" name="entrada" type="text">
-            <p>
-                <input type="submit" value="llama" >
-            </p>
-        
-        </form>
-    </fieldset>
-    <div onclick="pintar()">Pintar</div>
+    
+    <table>
+        <caption>Intervalo</caption>
+        <tr>
+            <td>1m</td>
+            <td>5m</td>
+            <td>15m</td>
+            <td>30m</td>
+            <td>1h</td>
+        </tr>
+        <tr>
+            <td>4h</td>
+            <td>12h</td>
+            <td>1d</td>
+            <td>1w</td>
+            <td>1M</td>
+        </tr>
+    </table>
+
+    <h1>Grafico</h1>
+         <canvas id="myChart" style="margin-left: auto;": auto;> 
+        </canvas>
     <div onclick="request()">Request</div>
     
 </body>
