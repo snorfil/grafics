@@ -1,6 +1,12 @@
  var lista = [];
  var nombrePares = [];
 
+ /*
+host=jdbc:mysql://bynmvytfsy7vjgnmx39h-mysql.services.clever-cloud.com:3306/bynmvytfsy7vjgnmx39h
+usr=ukffdmyvfxnrrxml
+pass=36mTrjIIIk6NI7QDN8x3
+
+ */
  
  async function request(){
     var req = new XMLHttpRequest();
