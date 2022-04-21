@@ -1,7 +1,7 @@
  var lista = [];
+
+ 
  async function request(){
-
-
     var req = new XMLHttpRequest();
     var par = document.getElementsByTagName('h2')[0].innerText;
     
@@ -83,7 +83,22 @@ function pintar(){
         labels:nombres},
     options: {responsive: false}
     });
+    var intervalos = document.querySelectorAll('.intervalo');
+ var titular = document.querySelector('#titular');
+
+ for (var i = 0; i < intervalos.length; i++) {
+
+   intervalos[i].addEventListener('click', function() {
+
+     titular.innerText = this.innerText;
+   });
+
+ }
 }
+
+
+
+
 
 
 
